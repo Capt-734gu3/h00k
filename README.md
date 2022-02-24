@@ -1,16 +1,21 @@
 #TH3 H00K
 >_The Ultimate_ _Opensea NFT Collection(s) Offer/Bidding Bot_
 
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger) ![visitor badge](https://visitor-badge.glitch.me/badge?page_id=Capt-734gu3.h00k&left_color=black&right_color=purple&left_text=Pirates)
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
+![visitor badge](https://visitor-badge.glitch.me/badge?page_id=Capt-734gu3.h00k&left_color=black&right_color=purple&left_text=Pirates)
 [Th3 H00k]() is an NFT Collections Auto Bidding(Offer) Bot, that currently supports [The Opensea Marketplace](https://opensea.io) .
 
 
 [ Features ]
 =============
 - [+] Updated to latest Opensea Smart Contract Wyvern 2.3
+
 - [+] 1.5k+ offers per minute
+
 - [+] Supports All  Opensea's Collection Filters (*highly recommended whenever possible to target specific assets in a collection)
+
 - [+] Supports Weth{Default} & Polygon Eth Payment Tokens
+
 - [+] Supports Addition of Custom Asset(*NFT) Filters  (Asset Qualifier Settings) => {**Used to additionaly filter out assets qualified to bid on}
 - - +} Fixed Price (** Additionaly Filters each Asset based on a fixed price, ie. bids on asset if asset's current highest bid price is the same as the fixed price)
 - - - Input Value:
@@ -68,13 +73,13 @@ Environmental Variables:
 =================
 
 1. Bot Takes 4 Inputs:
-- - [+] \*\***Collection url** `(\*\*Mandatory)`
+- - [+] \*\***Collection url** `(**Mandatory)`
 - - - -- Opensea Collection url with it's included collection url filters if any
 
 - - [+] **Asset Qualifier Settings** {Optional(recommended), if not set will bid on all assets recieved after Opensea Collection Filter if any}
 - - - -- Used to additionaly filter out the assets qualified to bid on based on an asset's current highest bid price
 
-- - [+] \*\***Bid Settings** `(\*\*Mandatory)`
+- - [+] \*\***Bid Settings** `(**Mandatory)`
 - - - -- Used to dictate how the bid/offer amount is calculated
 
 - - [+] **Expiration** {Optional, if not set defaults to 7 days}
