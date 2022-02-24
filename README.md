@@ -8,11 +8,15 @@
 
 **![Th3 H00k]() is an NFT Collections Auto Bidding(Offer) Bot, that currently supports [The Opensea Marketplace](https://opensea.io) .**
 
+<br>
+<br>
+
 ![image](/assets/images/hook.png)
 
 <br>
 
 ## [ F E A T U R E S ] 
+
 - <samp>[+] Compliant with latest Opensea Smart Contract(Wyvern 2.3)</samp>
 
 
@@ -64,6 +68,7 @@
 <br>
 
 ## [ ** R E Q U I R E D&nbsp;&nbsp;&nbsp; U S E R&nbsp;&nbsp;&nbsp; S E T T I N G S ]
+
 <samp>=> For Security reasons, all information we consider sensitive User settings are stored as `ENVIRONMENTAL_VARIABLES`</samp>
 
 #### ENVIRONMENTAL VARIABLES:
