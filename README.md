@@ -2,7 +2,7 @@
 >_The Ultimate_ _Opensea NFT Collection(s) Offer/Bidding Bot_
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
-![visitor badge](https://visitor-badge.glitch.me/badge?page_id=Capt-734gu3.h00k&left_color=black&right_color=purple&left_text=Pirates)
+![visitor badge](https://visitor-badge.glitch.me/badge?page_id=Capt-734gu3.h00k&left_color=white&right_color=purple&left_text=Pirates)
 [Th3 H00k]() is an NFT Collections Auto Bidding(Offer) Bot, that currently supports [The Opensea Marketplace](https://opensea.io) .
 
 
