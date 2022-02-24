@@ -6,7 +6,7 @@
 >_The Ultimate_ _Opensea NFT Collection(s) Offer/Bidding Bot_
 
 
-**![Th3 H00k]() is an NFT Collections Auto Bidding(Offer) Bot, that currently supports [The Opensea Marketplace](https://opensea.io) .**
+**![Th3 H00k](https://capt-734gu3.github.io/h00k/) is an NFT Collections Auto Bidding(Offer) Bot, that currently supports [The Opensea Marketplace](https://opensea.io) .**
 
 <br>
 <br>
@@ -15,7 +15,7 @@
 
 <br>
 
-## [ F E A T U R E S ] 
+## [ F E A T U R E S ]
 
 - <samp>[+] Compliant with latest Opensea Smart Contract(Wyvern 2.3)</samp>
 
