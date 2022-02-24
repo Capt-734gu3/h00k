@@ -1,8 +1,8 @@
-# H00K
->_The Ultimate_ _Opensea Collection Offer/Bidding Bot_
+#TH3 H00K
+>_The Ultimate_ _Opensea NFT Collection(s) Offer/Bidding Bot_
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger) ![visitor badge](https://visitor-badge.glitch.me/badge?page_id=Capt-734gu3.h00k&left_color=black&right_color=purple&left_text=Pirates)
-[Hook]() is an NFT Collections Auto Bidding(Offer) Bot, that currently supports [The Opensea Marketplace](https://opensea.io) .
+[Th3 H00k]() is an NFT Collections Auto Bidding(Offer) Bot, that currently supports [The Opensea Marketplace](https://opensea.io) .
 
 
 [ Features ]
@@ -44,23 +44,23 @@
 
 [ ** Required User settings ]
 ================================
-=> For Security reasons, all information we consider sensitive User settings are added as `ENVIRONMENTAL_VARIABLES` in a .env file
+=> For Security reasons, all information we consider sensitive User settings are added as `ENVIRONMENTAL_VARIABLES` in a `.env` file
 
 Environmental Variables:
-- [+] WALLET_ADDRESS
+- [+] `WALLET_ADDRESS`
 - - -- User Account Wallet Address
 - - - --> Required in Creating, Hashing & Signing the offers
 
-- [+] WALLET_PRIVATE_KEY
+- [+] `WALLET_PRIVATE_KEY`
 - - -- User Account's Private Key
 - - -  --> Required in Signing the offers
 
-- [+] NETWORK
+- [+] `NETWORK`
 - - -- Ethereum Network to use
-- - - --> Testnet(Rinkeby) -- Offers will be made on Opensea's Testnet Assets, can use for testing to see if your settings work as required
-- - - --> Mainnet --  Offers will be made on actual Opensea Mainnet(Live/Real) Assets, **NB : THESE ARE LIVE OFFERS BEING MADE
+- - - --> Testnet(Rinkeby) -- Offers will be made on Opensea's Testnet Assets, can use to test if your settings work as required
+- - - --> Mainnet --  Offers will be made on actual Opensea Mainnet(Live/Real) Assets, **NB : THESE ARE LIVE OFFERS BEING MADE**
 
-- [+] WEB3_INFURA_PROJECT_ID
+- [+] `WEB3_INFURA_PROJECT_ID`
 - - -- Infura Project ID
 - - - --> Requires an Infura Account
 
@@ -68,30 +68,31 @@ Environmental Variables:
 =================
 
 1. Bot Takes 4 Inputs:
-- - [+] **Collection url (**Mandatory)
+- - [+] \*\***Collection url** `(\*\*Mandatory)`
 - - - -- Opensea Collection url with it's included collection url filters if any
 
-- - [+] Asset Qualifier Settings {Optional(recommended), if not set will bid on all assets recieved after Opensea Collection Filter if any}
+- - [+] **Asset Qualifier Settings** {Optional(recommended), if not set will bid on all assets recieved after Opensea Collection Filter if any}
 - - - -- Used to additionaly filter out the assets qualified to bid on based on an asset's current highest bid price
 
-- - [+] **Bid Settings (**Mandatory)
+- - [+] \*\***Bid Settings** `(\*\*Mandatory)`
 - - - -- Used to dictate how the bid/offer amount is calculated
 
-- - [+] Expiration {Optional, if not set defaults to 7 days}
+- - [+] **Expiration** {Optional, if not set defaults to 7 days}
 - - - -- Used to set offer expiration time
 
 
 2. Pulls the Collection's Assets from Opensea and applies all the Collection Filters, if any
 
 
-3. Applies any Asset Qualifier Filters(**Additional Custom Filters set by the User) on each asset, if any
+3. Applies any Asset Qualifier Filters(\*\*Additional Custom Filters set by the User) on each asset, if any
 
 4. Calculates bid price for each of the qulified assets based on the Bid Settings set by the User
 
 5. Creates, Signs and Posts offers to each of the qualified asset based on:
-- - [+] Selected Network
-- - [+] User Calculated Bid Price
-- - [+] Selected payment Token
+- - [+] **Selected Network**
+- - [+] **User Calculated Bid Price**
+- - [+] **Selected payment Token**
+- - [+] **User Current Wallet Balance**
 a
 
 
