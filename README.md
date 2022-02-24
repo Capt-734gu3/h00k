@@ -1,32 +1,32 @@
+
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)	![visitor badge](https://visitor-badge.glitch.me/badge?page_id=Capt-734gu3.h00k&left_color=white&right_color=purple&left_text=Pirates)
+
 #TH3 H00K
 >_The Ultimate_ _Opensea NFT Collection(s) Offer/Bidding Bot_
 
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
-![visitor badge](https://visitor-badge.glitch.me/badge?page_id=Capt-734gu3.h00k&left_color=white&right_color=purple&left_text=Pirates)
-[Th3 H00k]() is an NFT Collections Auto Bidding(Offer) Bot, that currently supports [The Opensea Marketplace](https://opensea.io) .
+
+![Th3 H00k]() is an NFT Collections Auto Bidding(Offer) Bot, that currently supports [The Opensea Marketplace](https://opensea.io) .
 
 
 [ Features ]
 =============
-- [+] Updated to latest Opensea Smart Contract Wyvern 2.3
+- [+] Compliant with latest Opensea Smart Contract(Wyvern 2.3)
 
 - [+] 1.5k+ offers per minute
 
-- [+] Supports All  Opensea's Collection Filters (*highly recommended whenever possible to target specific assets in a collection)
+- [+] Supports All  Opensea's Collection Filters (`*highly recommended whenever possible to target specific assets in a collection`)
 
-- [+] Supports Weth{Default} & Polygon Eth Payment Tokens
-
-- [+] Supports Addition of Custom Asset(*NFT) Filters  (Asset Qualifier Settings) => {**Used to additionaly filter out assets qualified to bid on}
+- [+] Supports Additional Custom Asset(*NFT) Filters  (Asset Qualifier Settings) => `**Used to additionaly filter out assets qualified to bid on`
 - - +} Fixed Price (** Additionaly Filters each Asset based on a fixed price, ie. bids on asset if asset's current highest bid price is the same as the fixed price)
 - - - Input Value:
 - - - - [*] [Fixed Price] in Weth/selected PaymentToken`
 
 - - +} Price Range  (**Additionally Filters each asset based on a price range, ie. bids on asset if  asset's current highest bid price is within range)
-- - Input Values:
+- - - Input Values:
 - - - - [*] [Minimum Value] in Weth/selected PaymentToken
 - - - - [*] [Maximum Value] in Weth/selected PaymentToken
 
-- [+] Supports 3 Custom Bid Settings (Offer bid Settings) => {**Used to dictate how the bid/offer amount is calculated}
+- [+] Supports 3 Custom Bid Settings (Offer bid Settings) => {`**Used to dictate how the bid/offer amount is calculated`}
 - - +} Fixed Price (** Bid's Offer amount will be same as the fixed price)
 - - - Input Value:
 - - - - [*] [Fixed Price] in Weth/selected PaymentToken
@@ -38,6 +38,8 @@
 - - +} Points Above (** Bid's Offer amount will be {X points above current asset's highest bid} in Weth/selected PaymentToken)
 - - - Input Value:
 - - - - [*] [Points Above] current asset's highest bid in Weth/Chosen Token
+
+- [+] Supports Weth(Default) & Polygon Eth Payment Tokens
 
 - [+] Supports Custom Offer Expiration time in number of days
 - - +} Expiration (** Offer expiration in number of days)
