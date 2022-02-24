@@ -9,9 +9,9 @@
 ![Th3 H00k]() is an NFT Collections Auto Bidding(Offer) Bot, that currently supports [The Opensea Marketplace](https://opensea.io) .
 
 
-[ Features ]
-=============
-- [+] Compliant with latest Opensea Smart Contract(Wyvern 2.3)
+
+## [ F E A T U R E S ] 
+<samp> - [+] Compliant with latest Opensea Smart Contract(Wyvern 2.3)</samp>
 
 - [+] 1.5k+ offers per minute
 
@@ -50,8 +50,7 @@
 - [+] Works on Testnet(*Rinkeby) & Mainnet
 
 
-[ ** Required User settings ]
-================================
+## [ ** R E Q U I R E D&nbsp;&nbsp;&nbsp; U S E R&nbsp;&nbsp;&nbsp; S E T T I N G S ]
 => For Security reasons, all information we consider sensitive User settings are added as `ENVIRONMENTAL_VARIABLES` in a `.env` file
 
 Environmental Variables:
@@ -72,8 +71,7 @@ Environmental Variables:
 - - -- Infura Project ID
 - - - --> Requires an Infura Account
 
-[ How it Work]
-=================
+## [ H O W&nbsp;&nbsp;&nbsp; I T&nbsp;&nbsp;&nbsp; W O R K S]
 
 1. Bot Takes 4 Inputs:
 - - [+] \*\***Collection url** `(**Mandatory)`
@@ -101,7 +99,6 @@ Environmental Variables:
 - - [+] **User Calculated Bid Price**
 - - [+] **Selected payment Token**
 - - [+] **User Current Wallet Balance**
-a
 
 
 
