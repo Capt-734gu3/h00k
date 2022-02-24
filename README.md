@@ -6,17 +6,21 @@
 >_The Ultimate_ _Opensea NFT Collection(s) Offer/Bidding Bot_
 
 
-![Th3 H00k]() is an NFT Collections Auto Bidding(Offer) Bot, that currently supports [The Opensea Marketplace](https://opensea.io) .
+**![Th3 H00k]() is an NFT Collections Auto Bidding(Offer) Bot, that currently supports [The Opensea Marketplace](https://opensea.io) .**
 
 ![image](/assets/images/hook.png)
 
+<br>
 
 ## [ F E A T U R E S ] 
 - <samp>[+] Compliant with latest Opensea Smart Contract(Wyvern 2.3)</samp>
 
+
 - <samp>[+] 1.5k+ offers per minute</samp>
 
+
 - <samp>[+] Supports All  Opensea's Collection Filters (`*highly recommended whenever possible to target specific assets in a collection`)</samp>
+
 
 - <samp>[+] Supports Additional Custom Asset(*NFT) Filters  (Asset Qualifier Settings) => `**Used to additionaly filter out assets qualified to bid on`</samp>
 - - <samp>+} Fixed Price (** Additionaly Filters each Asset based on a fixed price, ie. bids on asset if asset's current highest bid price is the same as the fixed price)</samp>
@@ -27,6 +31,7 @@
 - - - <samp>Input Values:</samp>
 - - - - <samp>[*] [Minimum Value] in Weth/selected PaymentToken</samp>
 - - - - <samp>[*] [Maximum Value] in Weth/selected PaymentToken</samp>
+
 
 - <samp>[+] Supports 3 Custom Bid Settings (Offer bid Settings) => {`**Used to dictate how the bid/offer amount is calculated`}</samp>
 - - <samp>+} Fixed Price (** Bid's Offer amount will be same as the fixed price)</samp>
@@ -41,15 +46,22 @@
 - - - <samp>Input Value:</samp>
 - - - - <samp>[*] [Points Above] current asset's highest bid in Weth/Chosen Token</samp>
 
+
 - <samp>[+] Supports Weth(Default) & Polygon Eth Payment Tokens</samp>
+
 
 - <samp>[+] Supports Custom Offer Expiration time in number of days</samp>
 - - <samp>+} Expiration (** Offer expiration in number of days)</samp>
 - - - <samp>Input Value</samp>
 - - - - <samp>[*] [Expiration] Offer expiration in number of days</samp>
+
+
 - <samp>[+] Auto Signing with Account Private Key (** Works with Metamask etc...)</samp>
+
+
 - <samp>[+] Works on Testnet(*Rinkeby) & Mainnet</samp>
 
+<br>
 
 ## [ ** R E Q U I R E D&nbsp;&nbsp;&nbsp; U S E R&nbsp;&nbsp;&nbsp; S E T T I N G S ]
 <samp>=> For Security reasons, all information we consider sensitive User settings are stored as `ENVIRONMENTAL_VARIABLES`</samp>
@@ -59,18 +71,23 @@
 - - <samp>-- User Account Wallet Address</samp>
 - - - <samp>--> Required in Creating, Hashing & Signing the offers</samp>
 
+
 - <samp>[+] `WALLET_PRIVATE_KEY`</samp>
 - - <samp>-- User Account's Private Key</samp>
 - - -  <samp>--> Required in Signing the offers</samp>
+
 
 - <samp>[+] `NETWORK`</samp>
 - - <samp>-- Ethereum Network to use</samp>
 - - - <samp>--> Testnet(Rinkeby) -- Offers will be made on Opensea's Testnet Assets, can use to test if your settings work as required</samp>
 - - - <samp>--> Mainnet --  Offers will be made on actual Opensea Mainnet(Live/Real) Assets, **NB : THESE ARE LIVE OFFERS BEING MADE**</samp>
 
+
 - <samp>[+] `WEB3_INFURA_PROJECT_ID`</samp>
 - - <samp>-- Infura Project ID</samp>
 - - - <samp>--> Requires an Infura Account</samp>
+
+<br>
 
 ## [ H O W&nbsp;&nbsp;&nbsp; I T&nbsp;&nbsp;&nbsp; W O R K S]
 
@@ -93,7 +110,9 @@
 
 3. <samp>Applies any Asset Qualifier Filters(\*\*Additional Custom Filters set by the User) on each asset, if any.</samp>
 
+
 4. <samp>Calculates bid price for each of the qulified assets based on the Bid Settings set by the User.</samp>
+
 
 5. <samp>Creates, Signs and Posts offers to each of the qualified asset based on:</samp>
 - - <samp>[+] **Selected Network**</samp>
@@ -101,6 +120,8 @@
 - - <samp>[+] **Selected payment Token**</samp>
 - - <samp>[+] **User Current Wallet Balance**</samp>
 
+
+<br>
 
 
 
