@@ -1,6 +1,5 @@
 
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger) ![visitor badge](https://visitor-badge.glitch.me/badge?page_id=Capt-734gu3.h00k&left_color=white&right_color=purple&left_text=Pirates)
-
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger) ![visitor badge](https://visitor-badge.glitch.me/badge?page_id=Capt-734gu3.h00k&left_color=white&right_color=purple&left_text=Pirates) [![Netlify Status](https://api.netlify.com/api/v1/badges/36c2507c-71eb-4179-a09d-1262b8902e76/deploy-status)](https://app.netlify.com/sites/thehook/deploys)
 
 #TH3 H00K
 >_The Ultimate_ _Opensea NFT Collection(s) Offer/Bidding Bot_
